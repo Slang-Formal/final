@@ -13,12 +13,6 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 from pathlib import Path
 import os
 
-if 'DYNO' in os.environ:
-    # Disable collectstatic on Heroku
-    DISABLE_COLLECTSTATIC = True
-    # Append this setting to your existing settings
-    # Make sure that it's defined below your existing static files settings
-    STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
