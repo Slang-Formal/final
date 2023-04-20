@@ -1,0 +1,10 @@
+punkt
+stopwords
+averaged_perceptron_tagger
+maxent_ne_chunker
+words
+treebank
+
+# Resources
+taggers/averaged_perceptron_tagger.pickle
+chunkers/maxent_ne_chunker.pickle
