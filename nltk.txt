@@ -4,6 +4,7 @@ averaged_perceptron_tagger
 maxent_ne_chunker
 words
 treebank
+textblob
 
 # Resources
 taggers/averaged_perceptron_tagger.pickle
